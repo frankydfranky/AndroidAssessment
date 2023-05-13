@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/name_label"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_label"
+        android:layout_marginTop="11dp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telephone"
+        android:id="@+id/tele_label"
+        android:layout_below="@id/name_edittext"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/tele_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tele_label"
+        android:layout_marginTop="8dp"
+        android:inputType="phone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/email_label"
+        android:layout_below="@id/tele_edittext"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_label"
+        android:layout_marginTop="8dp"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suburb"
+        android:id="@+id/suburb_label"
+        android:layout_below="@id/email_edittext"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/suburb_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/suburb_label"
+        android:layout_marginTop="8dp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/online_service_chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Service Chat"
+        android:layout_below="@id/suburb_edittext"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
